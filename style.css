@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(imagenes/nebulosa2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    transition: transform 0.5s ease; 
+}
+
+.menu .home{
+    font: 1em Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: #b260e8;
+}
+
+.menu .navbar ul {
+    list-style: none;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: azure;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: rgb(44, 161, 203);
+    transform: scale(1.5);
+}
+
+menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-text {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.header-text h1 {
+    font: 1em Andromeda;
+    cursor: default;
+    color:aliceblue;
+    margin-top: 35px;
+    font-size: 60px;
+}
+
+.header-text p {
+    color: azure;
+    font: 1em "Latin Modern Roman";
+    cursor: default;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+
+.background-section {
+    background-color: #0c0c0c; /* Color de fondo detrás de las tarjetas */
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    display:flex;
+    max-width: 1000px;
+}
+
+.card {
+    width: 100%;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor:default;
+    align-items: center;
+    text-align: center;
+    transition: all 400ms ease;
+
+}
+
+.card:hover {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0,0.9);
+    transform: translateY(-6%);
+}
+
+.card img {
+    margin-top: 10px;
+    width: 40%;
+    height: auto;
+}
+
+.card img a {
+    padding: 20px;
+}
+
+.card .contenido {
+    padding: 10px;
+    text-align: center;
+    background-position: center;
+}
+
+.card .contenido a {
+    display: inline-block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+
+.btn-3 {
+    display: inline-block;
+    background-color: rgb(20, 20, 20);
+    margin-top: 25px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: rgb(243, 244, 244);
+    transition: transform 0.5s ease;
+ }
+
+ .btn-3:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+ }
+
+ .btn-4 {
+    display: inline-block;
+    background-color: rgb(50, 50, 50);
+    margin-top: 25px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: rgb(243, 244, 244);
+    transition: transform 0.5s ease;
+ }
+
+ .btn-4:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-6 {
+   display:inline-block;
+   background-color: rgb(50, 50, 50);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-6:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-7 {
+   display: inline-block;
+   background-color: rgb(20, 20, 20);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+   
+}
+
+.btn-7:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-8 {
+   display: inline-block;
+   background-color: rgb(50, 50, 50);
+   font-size: 9px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-8:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-10 {
+   display: inline-block;
+   background-color: rgb(20, 20, 20);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-10:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-11 {
+   display: inline-block;
+   background-color: rgb(50, 50, 50);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-11:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-13 {
+   display: inline-block;
+   background-color: rgb(50, 50, 50);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-13:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+}
+
+
+.btn-14 {
+   display: inline-block;
+   background-color: rgb(20, 20, 20);
+   font-size: 13px;
+   margin-top: 25px;
+   padding: 0;
+   border-radius: 25px;
+   color: rgb(243, 244, 244);
+   transition: transform 0.5s ease;
+}
+
+.btn-14:hover {
+    background-color:rgb(119, 119, 119);
+    transform: scale(1.1);
+
+}
+    
+@media screen and (max-width: 1000px){
+
+    .container {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+@media screen and (max-width: 500px){
+
+
+    .container {
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+}
+}
